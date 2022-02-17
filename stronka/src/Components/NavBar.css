@@ -1,0 +1,30 @@
+.NavBar{
+    height: 100px;
+    background-color: darksalmon;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.asText{
+    vertical-align: middle;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    border: none;
+    background: darksalmon;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    cursor: pointer;
+}
+.asText:hover{
+    background-color: #D07D61;
+}
+.asText:active{
+    background-color: #B66347;
+}
+
+.image{
+    float: left;
+}

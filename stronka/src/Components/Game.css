@@ -1,0 +1,36 @@
+.container{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.container h2{
+    text-align: center;
+    width: 128;
+}
+.container img{
+    display: block;
+    margin: 0 auto;
+}
+.description{
+    top:50%;
+    vertical-align: middle;
+}
+#CenterContainer{
+    padding: 100px;
+}
+#description{
+    float:left;
+}
+#PlayButton{
+    float: right;
+}
+#frame{
+    height: 320px;
+}
+#bottomHr{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
