@@ -16,14 +16,17 @@ function App() {
     return (
       <div>
         <NavBar onAboutClick={() => setPage(Pages.About)} onGamesClick={() => setPage(Pages.Games)}/>
+        <div className="emptyBox"/>
         <Game imgSrc="./gameicon.png" Name="Julcia" Description="Julcia jest fajna"/>
         <Game imgSrc="./game2icon.png" Name="TicTacToe" Description="Win"/>
+        <Game imgSrc="" Name="Chess" Description="Chess"/>
       </div>
     )
   else
     return(
       <div>
         <NavBar onAboutClick={() => setPage(Pages.About)} onGamesClick={() => setPage(Pages.Games)}/>
+        <div className="emptyBox"/>
         About
       </div>
     )

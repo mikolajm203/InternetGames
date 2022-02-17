@@ -3,13 +3,12 @@
     background-color: darksalmon;
     position: fixed;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    z-index: 9999;
 }
-.asText{
+.navButton{
     vertical-align: middle;
     text-align: center;
-    width: 300px;
+    width: 25%;
     height: 100px;
     border: none;
     background: darksalmon;
@@ -17,11 +16,12 @@
     padding: 0;
     font-size: larger;
     cursor: pointer;
+
 }
-.asText:hover{
+.navButton:hover{
     background-color: #D07D61;
 }
-.asText:active{
+.navButton:active{
     background-color: #B66347;
 }
 

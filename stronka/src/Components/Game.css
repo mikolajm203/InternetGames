@@ -8,6 +8,8 @@
     width: 128;
 }
 .container img{
+    height: 250px;
+    width: 250px;
     display: block;
     margin: 0 auto;
 }
